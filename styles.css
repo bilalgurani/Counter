@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: fantasy;
+    font-size: 30px;
+    background-color: #eaeaea;
+}
+.header {
+    display: block;
+}
+.header .main-text {
+    text-align: center;
+}
+.header .counter {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.btn button {
+    color: wheat;
+    background-color: purple;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    size: 12px;
+    outline: none;
+    font-size: 10px;
+    border: none;
+}
+.reset-btn button {
+
+}
+.increase-btn button {
+
+}
+.decrease-btn button {
+
+}
